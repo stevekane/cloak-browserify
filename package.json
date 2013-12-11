@@ -1,0 +1,25 @@
+{
+  "name": "cloak-browserify",
+  "version": "0.1.0",
+  "description": "This is a very minor alteration to the Cloak client to make it work with browserify",
+  "main": "cloak-browserify.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevekane/cloak-browserify.git"
+  },
+  "keywords": [
+    "cloak",
+    "client",
+    "browserify",
+    "games"
+  ],
+  "author": "Steve Kane",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "socket.io-browserify": "~0.9.6"
+  }
+}
